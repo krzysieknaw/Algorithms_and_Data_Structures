@@ -1,4 +1,4 @@
-# Algorithms_and_Data_Structures
+# Algorithms and Data Structures
 Some of my tests and analysis done during "Problem Solving with Algorithms and Data Structures using Python" course
 
 ## <a href='https://github.com/krzysieknaw/Algorithms_and_Data_Structures/tree/main/algoritms_speed'> Algoritms speed  </a>
