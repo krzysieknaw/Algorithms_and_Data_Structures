@@ -34,13 +34,13 @@ def test8(i): #pop last
     x.pop()
     
 
-#print("concat {:.3f} seconds".format(timeit.timeit(test1, number=1000)))
-#print("append {:.3f} seconds".format(timeit.timeit(test2, number=1000)))
-#print("comprehension {:.3f} seconds".format(timeit.timeit(test3, number=1000)))
-#print("list range {:.3f} seconds".format(timeit.timeit(test4, number=1000)))
-#print("")
-#print("pop first {:.3f} seconds".format(timeit.timeit(test5, number=100)))
-#print("pop last {:.3f} seconds".format(timeit.timeit(test6, number=100)))
+print("concat {:.3f} seconds".format(timeit.timeit(test1, number=1000)))
+print("append {:.3f} seconds".format(timeit.timeit(test2, number=1000)))
+print("comprehension {:.3f} seconds".format(timeit.timeit(test3, number=1000)))
+print("list range {:.3f} seconds".format(timeit.timeit(test4, number=1000)))
+print("")
+print("pop first {:.3f} seconds".format(timeit.timeit(test5, number=100)))
+print("pop last {:.3f} seconds".format(timeit.timeit(test6, number=100)))
 
 for i in range(10000000,100000001,10000000):
     pt = timeit.timeit("test7(i)", setup='from __main__ import test7, i', number=10)
