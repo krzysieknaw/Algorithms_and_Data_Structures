@@ -2,8 +2,7 @@
 Some of my tests and analysis done during "Problem Solving with Algorithms and Data Structures using Python" course
 
 ### <a href='https://github.com/krzysieknaw/Algorithms_and_Data_Structures/tree/main/algoritms_speed'> Algoritms speed  </a>
-#### List speed
-Test
+
 
 #### Dictionary and list speed comparison
 Experiment idea:
@@ -11,9 +10,21 @@ Experiment idea:
 2. pick random number and check if is in the list
 3. repeat for dictionary (numbers as keys)
 
-
 Results:  
 <img width="400" alt="" src="algoritms_speed/output/comparing 'in' operator in dict and list.png">
+
+#### List speed
+Speed comparison of:
+- concat
+- append
+- comprehension
+- list range
+- pop:
+  -  pop first
+  -  pop last 
+
+Results:  
+Nothing unexpected except one thing. I expected pop(0) to be O(n) and pop(1) -> O(1), while it looks like both are O(1). To check.
 
 
 ### <a href='https://github.com/krzysieknaw/Algorithms_and_Data_Structures/tree/main/data_structures'> Basic data structures </a>
