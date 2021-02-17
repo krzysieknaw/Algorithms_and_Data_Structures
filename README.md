@@ -5,7 +5,7 @@ Some of my tests and analysis done during "Problem Solving with Algorithms and D
 #### List speed
 Test
 
-#### Dictionay and list speed compatation
+#### Dictionary and list speed comparison
 Experiment idea:
 1. make list with a range numbers in it
 2. pick random number and check if is in the list
